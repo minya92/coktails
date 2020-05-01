@@ -1,4 +1,4 @@
-const sizes = {
+export const sizes = {
     'long': {
         name: 'Лонг-дринк',
         value: 'long',
@@ -13,7 +13,7 @@ const sizes = {
     }
 };
 
-const ingridiaents = {
+export const ingridients = {
     whiskey: 'Виски',
     vodka: 'Водка',
     white_rum: 'Белый Ром',
@@ -40,7 +40,7 @@ const ingridiaents = {
     cherry: 'Виишня'
 }
 
-const ingridiaents_structure = {
+export const ingridients_structure = {
     alcohol: {
         name: 'Алкоголь',
         values: [
@@ -88,7 +88,8 @@ const ingridiaents_structure = {
 export const db = [
     {
         name: 'Виски-кола',
-        value: 'whiskey-cola',
+        id: 1,
+        value: 'whiskey_cola',
         size: sizes.long,
         composition: [
             {whiskey: '50'},
@@ -103,7 +104,8 @@ export const db = [
     },
     {
         name: 'Пина-Колада',
-        value: 'pina-colada',
+        id: 2,
+        value: 'pina_colada',
         size: sizes.long,
         composition: [
             {white_rum: '40'},
