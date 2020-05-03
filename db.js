@@ -45,6 +45,12 @@ export const ingridients_structure = {
         name: 'Алкоголь',
         values: [
             'whiskey',
+            'vodka',
+            'white_rum',
+            'black_rum',
+            'tequila_silver',
+            'champagne',
+            'gin',
         ]
     },
     liquers: {
